@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.savanna-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff8e6;         /* 砂っぽいベージュ */
+    border: 2px solid #b08968;
+    margin: 25px 0;
+    font-size: 1rem;
+}
+
+.savanna-table caption {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #6b4226;
+}
+
+.savanna-table th {
+    background-color: #e6ccb2;
+    color: #5b3a29;
+    padding: 10px;
+    border: 1px solid #b08968;
+}
+
+.savanna-table td {
+    padding: 10px;
+    border: 1px solid #c5a689;
+}
+
+.savanna-table tr:nth-child(even) {
+    background-color: #fff3d9;   /* 交互の薄い色 */
+}
+
+/* 大きい画面（パソコン） */
+@media screen and (min-width: 641px) {
+    table {
+        width: 100%;
+        font-size: 1rem;
+        /* PC用のデザイン */
+    }
+
+
+
+.MIMI {
+    position: absolute;  /* 親（header）の中で自由に動く */         /* 右から20px */
+    width: 180px;        /* 写真サイズ（好きに調整OK） */
+    border-radius: 20px; /* 角丸 */
+}
+
+.prey{
+    margin-bottom: 15px;
+}
+
+.Scar{
+    margin-top: 55px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+
+
+
+h2 {
+
+    font-size: 1.5em;
+    color: #5f3d29;
+    margin: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #7B3F1D;
+    margin: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.animal-image {
+    width: 50%;
+    border: 4px solid #5f3d29;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    float: left;    /* 好きなサイズ */
+    margin-right: 20px; /* 写真と文字の間のスペース */
+}
+
+
+.Scar-Face {
+    width: 35%;
+    border: 4px solid #5f3d29;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    float: left;    /* 好きなサイズ */
+    margin-right: 20px; /* 写真と文字の間のスペース */
+}
+
+body {
+    width: 850px;   
+    margin: 50px auto;
+    background: #dbb590(255, 188, 188);
+    border: 6px solid #5f3d29;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #8d6f56;
+    border-bottom:  #5f3d29;
+    margin: -20px -20px 0 -20px;
+    gap: 20px; 
+    header {
+    position: relative;    /* ← ここが超重要！！ */
+    padding: 20px;
+}
+
+}
+
+header .header-text {
+    text-align: center; /* ← 文字は中央配置のまま！ */
+    width: 100%;
+}
+
+
+.header-text h1 {
+    font-size: bold;
+    color: #7B3F1D;
+    font-style: times new roman;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background:#5f3d29;
+    margin: 0 -20px;
+}
+
+
+aside {
+    width: 100%;
+    background-color: #dbb590;
+    border: 3px solid #7B3F1D;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 30px;
+    clear: both;
+
+}
+
+
+aside a:hover {
+    text-decoration: underline;
+    color: maroon;
+    font-weight: bold;
+}
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 28px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* current ページ */
+.menu .current {
+    background-color: steelblue; /* 薄い青背景 */
+    color: white; /* 白でもOKだけど画像は黒に近い */
+    border-radius: 4px 4px 0 0;
+}
+
+/* hover */
+.menu a:hover {
+    background-color: #dbb590;
+    color: black;
+    border-radius: 4px;
+}
+
+
+
+footer {
+  background-color:#5f3d29;;
+  text-align: center;
+  padding: 20px;
+  margin: 30px -20px -20px -20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.My-2025 {
+    color: #5f3d29;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    background-color: white;
+    padding: 12px 20px;
+    
+    display: block;       /* ← これで margin auto が効く！ */
+    width: fit-content;   /* ← ボックス幅が文字ぴったりになる */
+    margin: 30px auto;    /* ← 上下30px + 左右autoで中央配置 */
+
+    border-radius: 12px;
+}
+}
+
+
+
+/* 小さい画面（スマホ） */
+@media screen and (max-width: 640px) {
+
+
+.prey{
+    margin-bottom: 15px;
+}
+.Scar{
+    margin-bottom: 25px;
+}
+
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border: none;
+    }
+
+    .animal-image {
+        width: 100%;
+        float: none;
+        margin: 0 0 15px 0;
+    }
+
+    .MIMI {
+        position: static; /* スマホでは普通に上に置く */
+        width: 120px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px; /* 角丸 */
+
+    }
+
+    header {
+        flex-direction: column; /* ← スマホでは縦並び */
+        text-align: center;
+        gap: 10px;
+    }
+
+
+
+h2 {
+
+    font-size: 1.5em;
+    color: #5f3d29;
+    margin: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #7B3F1D;
+    margin: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.animal-image {
+    width: 100%;
+    border: 4px solid #5f3d29;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    float: left;    /* 好きなサイズ */
+    margin-right: 20px; /* 写真と文字の間のスペース */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #8d6f56;
+    border-bottom:  #5f3d29;
+    margin: -20px -20px 0 -20px;
+    gap: 20px; 
+    header {
+    position: relative;    /* ← ここが超重要！！ */
+    padding: 20px;
+}
+
+}
+
+header .header-text {
+    text-align: center; /* ← 文字は中央配置のまま！ */
+    width: 100%;
+}
+
+
+.header-text h1 {
+    font-size: bold;
+    color: #7B3F1D;
+    font-style: times new roman;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background:#5f3d29;
+    margin: 0 -20px;
+}
+
+
+aside {
+    width: 100%;
+    background-color: #dbb590;
+    border: 3px solid #7B3F1D;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 30px;
+    clear: both;
+
+}
+
+
+aside a:hover {
+    text-decoration: underline;
+    color: maroon;
+    font-weight: bold;
+}
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 28px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* current ページ */
+.menu .current {
+    background-color: steelblue; /* 薄い青背景 */
+    color: white; /* 白でもOKだけど画像は黒に近い */
+    border-radius: 4px 4px 0 0;
+}
+
+/* hover */
+.menu a:hover {
+    background-color: #dbb590;
+    color: black;
+    border-radius: 4px;
+}
+
+
+
+footer {
+  background-color:#5f3d29;;
+  text-align: center;
+  padding: 20px;
+  margin: 30px -20px -20px -20px;
+}
+
+.Scar-Face {
+    width: 35%;
+    border: 4px solid #5f3d29;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    float: left;    /* 好きなサイズ */
+    margin-right: 20px; /* 写真と文字の間のスペース */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.My-2025 {
+    color: #5f3d29;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    background-color: white;
+    padding: 12px 20px;
+    
+    display: block;       /* ← これで margin auto が効く！ */
+    width: fit-content;   /* ← ボックス幅が文字ぴったりになる */
+    margin: 30px auto;    /* ← 上下30px + 左右autoで中央配置 */
+
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 640px) {
+    .savanna-table thead {
+        display: none;
+    }
+
+    .savanna-table,
+    .savanna-table tr,
+    .savanna-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .savanna-table tr {
+        margin-bottom: 18px;
+        background-color: #fff8e6;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #b08968;
+    }
+
+    .savanna-table td {
+        text-align: left;
+        padding: 6px 8px;
+        border: none;
+        border-bottom: 1px solid #d4bba3;
+    }
+
+    .savanna-table td:last-child {
+        border-bottom: none;
+    }
+
+    .savanna-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #5b3a29;
+        display: block;
+    }
+
+}
+
+
+}
